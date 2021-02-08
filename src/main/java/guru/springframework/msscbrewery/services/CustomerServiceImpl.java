@@ -9,6 +9,9 @@ import java.util.UUID;
 public class CustomerServiceImpl implements CustomerService{
     @Override
     public CustomerDto getCustomerById(UUID customerId) {
-        return CustomerDto.builder().customerName("Khan").id(UUID.randomUUID()).build();
+        return CustomerDto.builder()
+                .customerName("Khan")
+                .id(UUID.randomUUID())
+                .build();
     }
 }
