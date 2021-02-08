@@ -1,6 +1,5 @@
 package guru.springframework.msscbrewery.web.controller;
 
-import com.sun.net.httpserver.Headers;
 import guru.springframework.msscbrewery.services.CustomerService;
 import guru.springframework.msscbrewery.web.model.CustomerDto;
 import org.springframework.http.HttpHeaders;
@@ -45,3 +44,4 @@ public class CustomerController {
         customerService.deleteById(customerId);
     }
 }
+
